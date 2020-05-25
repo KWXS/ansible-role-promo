@@ -5,14 +5,14 @@
     state: directory
     mode: 0777
 
-- name: Clone TenantCloud promo project
+- name: Clone promo project
   git:
     repo: "{{ promo_git }}"
     dest: $HOME/{{ work_dir }}/www.{{ work_domain }}
     version: "{{ promo_git_branch }}"
     force: true
 
-- name: Copy and setup TenantCloud promo environment file
+- name: Copy and setup promo environment file
   copy:
     src: $HOME/{{ work_dir }}/www.{{ work_domain }}/.env.example
     dest: $HOME/{{ work_dir }}/www.{{ work_domain }}/.env
