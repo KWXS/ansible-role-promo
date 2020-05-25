@@ -1,11 +1,11 @@
-keller.promo
+kellermanagement.promo
 =========
 
 Ansible role for install promo project.
 
-  - keller_promo
+  - ansible-role-promo
 
-Ste-by-step
+Step-by-step
 ------------
 
   - Setup Kellermanagement docker containers project and pull images from https://github.com/KWXS/km-containers
