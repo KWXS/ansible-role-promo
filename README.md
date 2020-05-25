@@ -71,7 +71,7 @@ Example Playbook
         minio_secret:
         app_env:
       roles:
-        - keller.promo
+        - ansible-role-promo
 
 License
 -------
